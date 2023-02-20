@@ -332,8 +332,42 @@ button {
   font-size: 15px;
 }
 
+.navbar {
+  font-size: 1.2em;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
 
+.main-nav {
+  list-style: none;
+  display: none;
 
+}
+
+.nav-links {
+
+  text-decoration: none;
+
+}
+
+.main-nav li {
+  text-align: left;
+  margin: 15px, auto;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+#checktoggle {
+  display: none;
+}
+
+#checktoggle:checked+ul.main-nav {
+  display: block;
+}
 
 
 /* MEDIA QUERIES */
