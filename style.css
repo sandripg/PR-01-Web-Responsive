@@ -236,10 +236,20 @@ li {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.topbar {
+  display: flex;
+}
+
+.topbar ul {
+  display: flex;
+  gap: 10px;
+
+}
+
 .nav-container {
   display: flex;
   background-color: var(--rc-color-n-050);
-
+  height: 35px;
   align-items: center;
   padding: 10px;
   flex-wrap: wrap;
@@ -249,13 +259,14 @@ li {
   color: var(--rc-color-n-300);
   font-family: var(--rc-typography-typeface);
   font-size: 1em;
+  background-color: var(--rc-color-n-600);
 }
 
 .principal3 {
   color: var(--rc-color-n-300);
   font-family: var(--rc-typography-typeface);
   font-size: 1em;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 .icons-container {
@@ -291,6 +302,8 @@ ul {
   margin: 0px;
   padding: 0px;
   border: 0px;
+  padding-top: 18px;
+
 }
 
 button {
@@ -341,7 +354,17 @@ button {
 
 .navbar {
   font-size: 1.2em;
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+  position: absolute;
+  padding: 8px;
+  padding-left: 24px;
+  /* background-color: var(--rc-color-n-050); */
+
+}
+
+.navbar span {
+  padding-left: 5px;
+
 }
 
 .main-nav {
@@ -356,9 +379,34 @@ button {
 
 }
 
+.main-nav a {
+
+  color: var(--rc-color-n-300);
+  line-height: 2;
+  cursor: pointer;
+  padding: 9px 15px;
+
+}
+
 .main-nav li {
   text-align: left;
-  margin: 15px, auto;
+  border-bottom: 1px solid #eeeeee;
+
+}
+
+.main-nav li:hover {
+
+  background-color: var(--rc-color-n-600);
+  /* width: 156px; */
+  /* padding: 9px 15px; */
+  line-height: 16px;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #fbfbfb;
+  /* display: -webkit-box;
+  display: flex; */
+  width: 100%;
+
 }
 
 .navbar-toggle {
@@ -372,10 +420,26 @@ button {
   display: none;
 }
 
-#checktoggle:checked+ul.main-nav {
+#checktoggle:checked+.desplegable ul.main-nav {
   display: block;
+  padding-top: 4.5px;
+  background-color: #fbfbfb none no-repeat scroll 0 0;
+
+  box-shadow: 2px 3px 5px 0px;
 }
 
+
+.main-nav ul {
+  order: 1px solid #eeeeee;
+  background: #fbfbfb none no-repeat scroll 0 0;
+}
+
+.desplegable {
+
+  /* background-color: var(--rc-color-n-050); */
+  padding-top: 8.5px;
+
+}
 
 /* MEDIA QUERIES */
 
@@ -524,6 +588,9 @@ button {
 
 
 }
+
+
+
 
 /* 
 @media screen and (min-width: 640px) and (max-width: 1280px) {
