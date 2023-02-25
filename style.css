@@ -506,7 +506,8 @@ button {
   box-shadow: 2px 3px 5px 0px;
 }
 
-#checktoggle-medium:checked+.desplegable-medium ul.main-nav-medium {
+
+#checktoggle-medium:checked~.desplegable-medium ul.main-nav-medium {
   display: block;
   padding-top: 4.5px;
   background-color: #eeeeee;
@@ -515,7 +516,22 @@ button {
   left: 0;
   width: 300px;
   top: 89px;
+
 }
+
+#checktoggle-medium:checked+.navbar-toggle-medium i.fa-bars {
+  display: none;
+}
+
+#checktoggle-medium:checked+.navbar-toggle-medium i.fa-xmark {
+  display: block;
+}
+
+
+#navbar-medium-close {
+  display: none;
+}
+
 
 
 .main-nav ul {
