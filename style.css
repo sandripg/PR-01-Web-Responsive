@@ -509,13 +509,13 @@ button {
 
 #checktoggle-medium:checked~.desplegable-medium ul.main-nav-medium {
   display: block;
-  padding-top: 4.5px;
-  background-color: #eeeeee;
+  padding-top: 122.5px;
+  background-color: #ffffff;
   position: fixed;
   box-shadow: 2px 3px 5px 0px;
   left: 0;
-  width: 300px;
-  top: 89px;
+  width: 425px;
+  top: 0;
 
 }
 
@@ -525,6 +525,7 @@ button {
 
 #checktoggle-medium:checked+.navbar-toggle-medium i.fa-xmark {
   display: block;
+  z-index: 2;
 }
 
 
@@ -743,10 +744,7 @@ button {
   }
 
   .desplegable-medium {
-    padding-top: 45.5px;
 
-    width: 384px;
-    left: 0;
     z-index: 1;
 
   }
