@@ -1325,11 +1325,14 @@ img {
 .text-container-promotion {
   background-color: var(--rc-color-n-200);
   display: flex;
-  margin: 30px;
+  margin: 49px;
   height: 33px;
+  position: absolute;
+  left: -18px;
 
 }
 
 .text-container-promotion h3 {
-  padding-right: 10px;
+  margin: 9px;
+
 }
