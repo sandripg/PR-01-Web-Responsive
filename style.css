@@ -908,6 +908,72 @@ img {
 
 
 
+
+/* FOOTER*/
+
+.footer-container {
+  background-color: var(--rc-color-n-050);
+  height: auto;
+  margin-top: -65px;
+}
+
+.text-info {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+
+.text-info span {
+  color: var(--rc-color-n-200);
+  font-size: 13px;
+  text-decoration: overline;
+}
+
+.text-info-local {
+  display: block;
+}
+
+.text-info-account {
+  display: block;
+}
+
+.text-info-conditions {
+  display: block;
+}
+
+.text-info-local p {
+  color: #eeeeee;
+}
+
+.info-local {
+  padding-top: 10px;
+}
+
+.info-account {
+  padding-top: 10px;
+}
+
+.info-conditions {
+  padding-top: 10px;
+}
+
+.text-info-account li {
+  color: #eeeeee;
+}
+
+.text-info-conditions li {
+  color: #eeeeee;
+}
+
+.container-copyright {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: var(--rc-color-n-200);
+  padding: 10px;
+}
+
 /* MEDIA QUERIES */
 
 /* @media screen and (min-width: 770px) and (max-width: 990px)
