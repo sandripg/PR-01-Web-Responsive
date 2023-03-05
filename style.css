@@ -74,7 +74,8 @@ a {
   text-decoration: none;
 }
 
-h1,h2 {
+h1,
+h2 {
   color: var(--rc-color-typography-heading);
   letter-spacing: var(--rc-typography-heading-spacing);
   text-transform: uppercase;
@@ -1722,7 +1723,7 @@ img {
   }
 
   .brands-image img {
-    width: 100%;
+    width: 50%;
   }
 
   .banner-title-home h2 {
