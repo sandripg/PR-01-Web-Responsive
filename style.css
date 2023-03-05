@@ -833,7 +833,7 @@ img {
 }
 
 .brands-image img {
-  width: 50%;
+  width: 80%;
 }
 
 .brands-image img:hover {
@@ -1289,6 +1289,9 @@ img {
 
   }
 
+  .brands-image img {
+    width: 80%;
+  }
 
   .container-products-sale {
 
